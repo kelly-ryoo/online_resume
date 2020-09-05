@@ -1,16 +1,15 @@
 body{
-    font-family: "Lato" !important;
+    font-family: "Montserrat" !important;
+    color:white !important;
 }
 
-.container-fluid{
-    padding: 0 !important;
+.section-header{
+    letter-spacing: 5px;
 }
 
 /* PART ONE: COVER + HEADINGS */
 .cover{
-    color:white;
-
-    background-image: url("img/mainstreet.PNG");
+    background-color:#697e8d;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -34,37 +33,98 @@ body{
     letter-spacing: 3px;
 }
 
+/* ABOUT ME */
+.about-me{
+    background-color: #d6d5bd;
+    font-size:1.5rem;
 
-/* NAV */
-.nav{
-    position:fixed;
-    right:5vw;
-    top:50%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
-.nav ul{
-    list-style-type: none;
+.about-me-wrapper{
+    background-color:#aaaaa1;
+    width: 65vw;
+    max-width:90vw;
+    margin: auto;
+    left: 50%;
 }
 
-.nav ul li{
-    padding-top:5vh;
+.about-me .files{
+    background-color: #848484;
+    margin:0;
+    height:25px;
 }
 
-.nav ul a{
-    color:black;
-    text-align:left;
+.about-me .fileName{
+    font-weight:300;
+    font-size:70%; 
+
 }
 
-
-/* PART TWO: ABOUT ME */
-.aboutMe{
-    height:100%;
+.about-me #myinfo{
+    background-color:#616161;
+    height:25px;
 }
 
-.aboutMe h1{
-    letter-spacing: 3px;
+.about-me .code{
+    padding-top:30px;
+    padding-bottom:30px;
 }
 
-.aboutMe hr{
-    width:80vw;
+.about-me .about-me-header{
+    font-size:120%;
+    padding-left:15px;
 }
+
+.about-me .heading{
+    font-weight:600;
+    font-size:120%;
+}
+
+.about-me .basicinfo, .education, .contact-info{
+    padding-top:30px;
+}
+
+/* SECT */
+.sect-yr{
+    font-weight:600;
+}
+
+.sect-els{
+    padding-top:30px;
+}
+
+.sect-title{
+    font-weight:600;
+}
+
+.sect{
+    padding-top:10vh;
+    padding-bottom:10vh;
+}
+
+/* COURSEWORK */
+.courses{
+    background-color: #c3a670;
+}
+
+/* EXPERIENCE */
+.experiences{
+    background-color: #697e8c;
+}
+
+/* ACTIVITIES */
+.activities{
+    background-color:#aaaaa0;
+}
+
+/*CONTACT*/
+.contact{
+    background-color: #a74b22;
+}
+
+.contact i{
+    color:white;
+}
+
