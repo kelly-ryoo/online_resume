@@ -7,6 +7,44 @@ body{
     letter-spacing: 5px;
 }
 
+.container-fluid{
+    padding-left:0 !important;
+    padding-right:0 !important;
+    overflow-x: hidden !important;
+}
+
+/* NAV */
+.menu{
+    position:fixed;
+    top:7vh;
+    right:5vw;
+    text-align:right;
+}
+
+.nav{
+    display:none;
+}
+
+.active{
+    display: block;
+}
+
+.nav a{
+    text-decoration:none;
+    color:white;
+    display:block;
+    padding-top:4vh;
+}
+.nav a:hover{
+    color:rgb(200,200,200);
+    text-decoration:none;
+}
+
+.menu button{
+    background-color:rgba(0,0,0,0) !important;
+    border:none;
+}
+
 /* PART ONE: COVER + HEADINGS */
 .cover{
     background-color:#697e8d;
@@ -53,18 +91,13 @@ body{
 .about-me .files{
     background-color: #848484;
     margin:0;
-    height:25px;
+    padding-top:6px;
+    padding-bottom:5px;
 }
 
 .about-me .fileName{
     font-weight:300;
-    font-size:70%; 
-
-}
-
-.about-me #myinfo{
-    background-color:#616161;
-    height:25px;
+    font-size:100%; 
 }
 
 .about-me .code{
@@ -102,6 +135,11 @@ body{
 .sect{
     padding-top:10vh;
     padding-bottom:10vh;
+}
+
+.sect-title-n{
+    font-weight:400;
+    font-style:italic;
 }
 
 /* COURSEWORK */
